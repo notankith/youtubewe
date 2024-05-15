@@ -1,8 +1,14 @@
 {
+  "version": 2,
   "builds": [
-    { "src": "server.js", "use": "@vercel/node" }
+    {
+      "src": "server.js",
+      "use": "@vercel/node"
+    }
   ],
-  "functions": { "api/**/*.js" },
+  "routes": [
+    { "src": "/download", "dest": "/server.js" }
+  ],
   "install": {
     "include": ["youtube-dl"]
   }
