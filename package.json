@@ -1,13 +1,13 @@
 {
-    "name": "youtube-downloader",
-    "version": "1.0.0",
-    "description": "YouTube video downloader",
-    "main": "server.js",
-    "scripts": {
-      "start": "node server.js"
-    },
-    "dependencies": {
-      "express": "^4.17.1"
-    }
+  "name": "youtube-downloader",
+  "version": "1.0.0",
+  "description": "YouTube video downloader",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "youtube-dl": "^2022.01.01" // Added youtube-dl dependency here
   }
-  
+}
