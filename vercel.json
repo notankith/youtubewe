@@ -8,8 +8,5 @@
   ],
   "routes": [
     { "src": "/download", "dest": "/server.js" }
-  ],
-  "install": {
-    "include": ["youtube-dl"]
-  }
+  ]
 }
