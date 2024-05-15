@@ -8,6 +8,6 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-    "youtube-dl": "^2022.01.01" // Added youtube-dl dependency here
+    "youtube-dl": "^2022.01.01" 
   }
 }
